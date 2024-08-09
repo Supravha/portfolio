@@ -1,0 +1,118 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+    background: linear-gradient(to right, #ff8cba, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  .about-containers {
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  #profile,
+  .section-container {
+    display: block;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  .about-containers {
+    margin-top: 0;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  article {
+    font-size: 1rem;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  .contact-info-container {
+    margin: 0;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+    background: linear-gradient(to right, #ff8cba, #9b59b6); /* Light pink to purple gradient */
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
